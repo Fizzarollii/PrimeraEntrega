@@ -1,0 +1,36 @@
+public class Usuario
+{
+    public int Id;
+    public string Nombre;
+    public string Apellido;
+    public string NombreUsuario;
+    private string Constrasena;
+    public string Mail;
+
+}
+
+public class Producto
+{
+    public int Id;
+    public string Descripcion;
+    public double Costo;
+    public double PrecioVenta;
+    private int Stock;
+    private int IdUsuario;
+
+}
+
+public class ProductoVendido
+{
+    public int Id;
+    public int IdProducto;
+    private int Stock;
+    private int IdVenta;
+}
+
+public class Venta
+{
+    public int Id;
+    public string Comentarios;
+    private int IdUsuario;
+}
